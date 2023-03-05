@@ -1,37 +1,105 @@
 body {
-    background-color: #fffff;
+    background-color: #F0F3BD;
 }
 
 header {
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #004E64;
-    color: white;
 }
 
 header h1 {
-    font-size: 40px;
-    display: inline-block;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 header nav ul {
     list-style-type: none;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
 }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    font-size: 15px;
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: inline;
+}
+
+.about {
+    width: 75%;
+    padding: 50px;
+    height: 300px;
+    margin: auto;
+    background-color: #004E64;
+    color: #ffffff;
+}
+
+.work {
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    height: 300px;
+    background-color: #25A18E;
+    color: #ffffff;
+}
+
+main section p {
+    margin: 50px 50px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+#japan {
+    height: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section article p {
+    font-weight: bold;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+section article img {
+    width: 100%;
 }

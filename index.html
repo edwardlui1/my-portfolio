@@ -14,28 +14,56 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="#about">About Me</a>
                 </li>
                 <li>
-                    <a href="">My Work</a>
+                    <a href="#work">My Work</a>
                 </li>
                 <li>
-                    <a href="">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
             </ul>
         </nav> 
     </header>
 
     <main>
-        <section>
+        <section class="about" id="about">
+            <img src="./assets/images/me_japan.jpg" class="float-right" id="japan"/>
             <h2>About Me</h2>
-            <img src="./assets/images/"/>
-            <p>Hi! My name is Edward Lui, and welcome to my portfolio page. I am a 20 year old future Web Developer. I am based in Melbourne, Australia, and have lived here my whole life. Some of my interests include gaming, travelling, and exercising. I decided to take this step into web development as I wanted a career change and pick up a new skill, specifically one that is future-proof, that I can enjoy learning along the way.</p>
+            <p>Hi! My name is Edward Lui, I am based in Melbourne and I'm learning to become a web developer. This portfolio is very basic at this current stage and will be updated consistently as my learning continues. (Hello person marking this, yes I know, it's not looking great, but I'm glad you're on this journey with me and I guarantee it only gets better from here on out :D.</p>
         </section>
 
-        <section>
+        <section class="work" id="work">
             <h2>My Work</h2>
             <p>A lot of my work is currently a work-in-progress, so how about some memes in the meantime? (Just imagine them as placeholders for future completed work.)</p>
         </section>
+
+        <section class="flex-container">
+            <article>
+                <img src="assets/images/meme2.jpg"/>
+                <p>Project 1</p>
+            </article>
+            <article>
+                <img src="assets/images/meme1.jpg"/>
+                <p>Project 2</p>
+            </article>
+            <article>
+                <img src="assets/images/meme3.jpg"/>
+                <p>Project 3</p>
+            </article>
+        </section>
+
+        <section class="contact" id="contact">
+            <ul>
+                <li><a>Phone#: 123456789</a></li>
+                <li><a>Email: coolguy123@fakeemail.com</a></li>
+                <li><a href="https://github.com/edwardlui1">Github: click here</a></li>
+            </ul>
+        </section>
     </main>
+
+    <footer>
+        <p> Made by Edward Lui</p>
+        <a href="https://dev.to/__manucodes/funny-web-dev-software-dev-memes-4hhf">Memes were found here.</a>
+    </footer>
 </body>
